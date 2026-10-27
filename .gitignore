@@ -1,0 +1,49 @@
+# Secrets & Keys
+.env
+backend/.env
+frontend/.env
+*.key
+*.pem
+
+# Python Virtual Environments & Packages
+venv/
+backend/venv/
+.venv/
+env/
+ENV/
+pyvenv.cfg
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Python Caches & Compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node & Frontend Build outputs
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+*.local
+.eslintcache
+
+# Local Test outputs & Temp logs
+backend/test_output.txt
+backend/api_response.json
+backend/test_output_*.txt
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
